@@ -2,7 +2,6 @@
 
 Evidence-constrained reuse of historical expert diagnoses for congenital heart disease report research.
 
-This repository is a readable, executable reference implementation of the manuscript's algorithmic structure. It is **not the archived clinical deployment**, and running it does not reproduce the paper's reported clinical results. The original clinical resource, complete ontology, prompts, fitted artifacts and execution manifests are not included. The bundled cases and rulebook are synthetic demonstration fixtures. No clinical data are distributed.
 
 ## Algorithm
 
@@ -138,8 +137,3 @@ validation/                 Local validation record; no clinical predictions
 
 Start with `docs/algorithm.md`, then `configs/experiments.yaml` and `src/achdnlp/pipeline.py`. Details not specified by the manuscript are identified in `docs/parameter_provenance.md`; example defaults must not be described as recovered clinical settings.
 
-## Release scope
-
-See `docs/release_scope.md` for the exact disclosure boundary and a code-availability statement. `docs/reproducibility.md` describes artifacts, resumption and comparison invariants. `docs/publication_checklist.md` records publication-facing items that repository formatting alone cannot settle.
-
-The software is distributed under the MIT license. It is research reference code, not a clinically validated medical product. Clinical use requires a separately governed and validated implementation. The license does not grant rights to third-party model services or to clinical datasets.
