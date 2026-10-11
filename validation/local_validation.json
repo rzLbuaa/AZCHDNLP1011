@@ -1,0 +1,35 @@
+{
+  "release": "0.1.0",
+  "validation_date": "2026-10-11",
+  "python": "3.13.5",
+  "platform": "Linux",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "pydantic": "2.13.5",
+    "httpx": "0.28.1",
+    "PyYAML": "6.0.3",
+    "pytest": "9.0.2"
+  },
+  "pytest": {
+    "tests": 86,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "compileall": "passed",
+  "wheel_build": "passed with pip wheel --no-deps --no-build-isolation",
+  "installed_wheel_smoke": {
+    "arms": 15,
+    "queries": 8,
+    "completed_arm_records": 120,
+    "data_origin": "synthetic demonstration"
+  },
+  "standalone_D_entry": "passed with eight demonstration queries",
+  "release_content_scan": "passed; does not certify de-identification or clinical safety",
+  "live_provider_calls": "not executed",
+  "HTTP_contract_tests": "executed using HTTPX MockTransport",
+  "github_CI": "workflow supplied, not executed on GitHub",
+  "ruff": "not executed locally; optional tool unavailable in the offline environment"
+}

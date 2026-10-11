@@ -1,0 +1,8 @@
+{"record_id": "Q001", "findings": "Membranous septal discontinuity measures 5.5 mm. The aorta arises from the left ventricle. The pulmonary trunk arises from the right ventricle.", "modality": "CTA", "cohort": "prospective_cta"}
+{"record_id": "Q002", "findings": "房间隔缺损约7mm。未见室间隔缺损。", "modality": "CTA", "cohort": "prospective_cta"}
+{"record_id": "Q003", "findings": "主动脉起源于右室。肺动脉干起源于左室。双心室形态可辨。", "modality": "CMR", "cohort": "cmr"}
+{"record_id": "Q004", "findings": "Coarctation of the aorta at the isthmus measures 3 mm. The ascending aorta is patent.", "modality": "CTA", "cohort": "partner_cta"}
+{"record_id": "Q005", "findings": "Possible ventricular septal defect; additional imaging review is required.", "modality": "CMR", "cohort": "cmr"}
+{"record_id": "Q006", "findings": "The aorta lies anterior and right. The aorta arises from the left ventricle. The pulmonary artery arises from the right ventricle.", "modality": "CTA", "cohort": "prospective_cta"}
+{"record_id": "Q007", "findings": "Status post ventricular septal defect repair. No residual ventricular septal defect is seen.", "modality": "CMR", "cohort": "cmr"}
+{"record_id": "Q008", "findings": "冠状动脉起源异常，近端走行异常。主动脉起源于左室。", "modality": "CTA", "cohort": "prospective_cta"}

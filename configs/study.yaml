@@ -1,0 +1,17 @@
+ontology: ../data/demo/ontology.json
+rulebook: ../data/demo/rulebook.yaml
+seed: 2026
+data_kind: demonstration
+retrieval:
+  lexical_weight: 0.70
+  anatomy_weight: 0.25
+  modality_weight: 0.05
+  initial_k: 8
+  expanded_k: 14
+  low_similarity: 0.45
+  small_margin: 0.035
+  complex_relations: 5
+  min_content_similarity: 0.01
+  diversity_lambda: 0.85
+  max_fragment_chars: 700
+  max_label_priors: 24

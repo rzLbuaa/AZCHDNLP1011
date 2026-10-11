@@ -1,0 +1,5 @@
+kind: http
+archived_alias: qwen3.8-max
+model_env: ACHDNLP_BACKEND_03_MODEL
+base_url_env: ACHDNLP_BACKEND_03_URL
+api_key_env: ACHDNLP_BACKEND_03_KEY

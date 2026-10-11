@@ -1,0 +1,5 @@
+kind: http
+archived_alias: gpt-5.6-sol
+model_env: ACHDNLP_BACKEND_08_MODEL
+base_url_env: ACHDNLP_BACKEND_08_URL
+api_key_env: ACHDNLP_BACKEND_08_KEY

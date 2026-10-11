@@ -1,0 +1,102 @@
+version: demo-rules-1
+entities:
+  LV:
+  - left ventricle
+  - left ventricular
+  - 左心?室
+  RV:
+  - right ventricle
+  - right ventricular
+  - 右心?室
+  LA:
+  - left atri(?:um|al)
+  - 左心?房
+  RA:
+  - right atri(?:um|al)
+  - 右心?房
+  AORTA:
+  - aort
+  - 主动脉
+  PA:
+  - pulmonary (?:artery|trunk|valve)
+  - 肺动脉
+  PV:
+  - pulmonary vein
+  - 肺静脉
+  SEPTUM:
+  - sept
+  - 间隔
+relations:
+- subject: AORTA
+  predicate: arises_from
+  object: LV
+  pattern: (?:aorta|ascending aorta)\s+(?:arises|originates)\s+from\s+(?:the\s+)?left\s+ventricle|(?:升)?主动脉(?:主要)?(?:起源于|发自)左心?室
+- subject: AORTA
+  predicate: arises_from
+  object: RV
+  pattern: (?:aorta|ascending aorta)\s+(?:arises|originates)\s+from\s+(?:the\s+)?right\s+ventricle|(?:升)?主动脉(?:主要)?(?:起源于|发自)右心?室
+- subject: PA
+  predicate: arises_from
+  object: LV
+  pattern: (?:pulmonary artery|pulmonary trunk)\s+(?:arises|originates)\s+from\s+(?:the\s+)?left\s+ventricle|肺动脉(?:干)?(?:主要)?(?:起源于|发自)左心?室
+- subject: PA
+  predicate: arises_from
+  object: RV
+  pattern: (?:pulmonary artery|pulmonary trunk)\s+(?:arises|originates)\s+from\s+(?:the\s+)?right\s+ventricle|肺动脉(?:干)?(?:主要)?(?:起源于|发自)右心?室
+- subject: AORTA
+  predicate: position_relative_to
+  object: PA_ANTERIOR_RIGHT
+  pattern: aorta lies anterior and right|主动脉位于肺动脉右前方
+diagnoses:
+- concept_id: ASD
+  patterns:
+  - atrial septal (?:defect|discontinuity)
+  - 房间隔(?:缺损|连续性中断)
+- concept_id: VSD
+  patterns:
+  - ventricular septal defect
+  - (?:membranous|ventricular) sept(?:al|um) (?:discontinuity|defect)
+  - 室间隔(?:膜部)?(?:缺损|连续性中断)
+- concept_id: PDA
+  patterns:
+  - patent ductus arteriosus
+  - 动脉导管未闭
+- concept_id: PS
+  patterns:
+  - pulmonary (?:valve |artery )?stenosis
+  - 肺动脉(?:瓣)?狭窄
+- concept_id: COA
+  patterns:
+  - coarctation of the aorta
+  - 主动脉缩窄
+- concept_id: TGA
+  patterns:
+  - transposition of the great arteries
+  - 大动脉转位
+  requires_relations:
+  - AORTA|arises_from|RV
+  - PA|arises_from|LV
+- concept_id: DORV
+  patterns:
+  - double[- ]outlet right ventricle
+  - 右室双出口
+- concept_id: TOF
+  patterns:
+  - tetralogy of fallot
+  - 法洛四联症
+- concept_id: TAPVC
+  patterns:
+  - total anomalous pulmonary venous connection
+  - 完全性肺静脉异位引流
+- concept_id: SV
+  patterns:
+  - single ventricle
+  - 单心室
+- concept_id: CORONARY_ANOMALY
+  patterns:
+  - anomalous coronary origin
+  - 冠状动脉起源异常
+- concept_id: AORTIC_OVERRIDE
+  patterns:
+  - overriding aorta
+  - 主动脉骑跨

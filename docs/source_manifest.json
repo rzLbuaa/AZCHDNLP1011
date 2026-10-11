@@ -1,0 +1,19 @@
+{
+  "basis": "Author-supplied revised manuscripts; no clinical deployment source included",
+  "sources": [
+    {
+      "file": "JAMIA_CHD_Main_revised.tex",
+      "sha256": "dfedfff9f1a01ade54ab295cefa97dbbdc05bb2407fc7932c1998e2b81fde251",
+      "redistributed": false
+    },
+    {
+      "file": "JAMIA_CHD_Supplement_revised.tex",
+      "sha256": "5cbcf268f6fe8b91d65466e19b7ae944a3ef64f86459ff5ba4528bb830fbf973",
+      "redistributed": false
+    }
+  ],
+  "public_source_context": [
+    "Main Methods: representation, retrieval, encapsulation and verification",
+    "Supplement S2: matched comparisons and fixed retrieval budgets"
+  ]
+}

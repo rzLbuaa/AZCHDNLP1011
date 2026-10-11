@@ -1,0 +1,23 @@
+{"record_id": "H001", "findings": "Atrial septal defect measuring 6 mm is present. Right atrial enlargement is described.", "modality": "CTA", "expert_labels": ["ASD"], "source": "synthetic-fixture"}
+{"record_id": "H002", "findings": "房间隔缺损约5mm。右心房增大。", "modality": "CTA", "expert_labels": ["ASD"], "source": "synthetic-fixture"}
+{"record_id": "H003", "findings": "A 4 mm membranous septal discontinuity connects both ventricles. The aorta arises from the left ventricle.", "modality": "CTA", "expert_labels": ["VSD"], "source": "synthetic-fixture"}
+{"record_id": "H004", "findings": "室间隔膜部连续性中断约3mm。主动脉起源于左室。", "modality": "CTA", "expert_labels": ["VSD"], "source": "synthetic-fixture"}
+{"record_id": "H005", "findings": "Patent ductus arteriosus connects the descending aorta to the pulmonary artery.", "modality": "CTA", "expert_labels": ["PDA"], "source": "synthetic-fixture"}
+{"record_id": "H006", "findings": "动脉导管未闭，连接降主动脉与肺动脉。", "modality": "CTA", "expert_labels": ["PDA"], "source": "synthetic-fixture"}
+{"record_id": "H007", "findings": "Pulmonary valve stenosis with a narrowed valve opening is described.", "modality": "CTA", "expert_labels": ["PS"], "source": "synthetic-fixture"}
+{"record_id": "H008", "findings": "肺动脉瓣狭窄，右室心肌增厚。", "modality": "CMR", "expert_labels": ["PS"], "source": "synthetic-fixture"}
+{"record_id": "H009", "findings": "Coarctation of the aorta is visible at the isthmus. Collateral vessels are described.", "modality": "CTA", "expert_labels": ["COA"], "source": "synthetic-fixture"}
+{"record_id": "H010", "findings": "主动脉缩窄位于峡部，见侧支循环。", "modality": "CMR", "expert_labels": ["COA"], "source": "synthetic-fixture"}
+{"record_id": "H011", "findings": "The aorta arises from the right ventricle. The pulmonary artery arises from the left ventricle.", "modality": "CTA", "expert_labels": ["TGA"], "source": "synthetic-fixture"}
+{"record_id": "H012", "findings": "主动脉起源于右室。肺动脉起源于左室。", "modality": "CMR", "expert_labels": ["TGA"], "source": "synthetic-fixture"}
+{"record_id": "H013", "findings": "Double-outlet right ventricle is documented with associated ventricular septal defect.", "modality": "CTA", "expert_labels": ["DORV"], "source": "synthetic-fixture"}
+{"record_id": "H014", "findings": "Tetralogy of Fallot with overriding aorta and pulmonary stenosis is described.", "modality": "CTA", "expert_labels": ["TOF"], "source": "synthetic-fixture"}
+{"record_id": "H015", "findings": "Total anomalous pulmonary venous connection drains into the systemic venous pathway.", "modality": "CTA", "expert_labels": ["TAPVC"], "source": "synthetic-fixture"}
+{"record_id": "H016", "findings": "Single ventricle with a dominant ventricular chamber is documented.", "modality": "CMR", "expert_labels": ["SV"], "source": "synthetic-fixture"}
+{"record_id": "H017", "findings": "Anomalous coronary origin is described with an unusual proximal course.", "modality": "CTA", "expert_labels": ["CORONARY_ANOMALY"], "source": "synthetic-fixture"}
+{"record_id": "H018", "findings": "Overriding aorta is described together with a ventricular septal defect.", "modality": "CTA", "expert_labels": ["AORTIC_OVERRIDE"], "source": "synthetic-fixture"}
+{"record_id": "H019", "findings": "Ventricular septal defect measures 7 mm. Left ventricular morphology is documented.", "modality": "CMR", "expert_labels": ["VSD"], "source": "synthetic-fixture"}
+{"record_id": "H020", "findings": "Atrial septal defect measures 8 mm. Pulmonary venous anatomy is described.", "modality": "CMR", "expert_labels": ["ASD"], "source": "synthetic-fixture"}
+{"record_id": "H021", "findings": "Pulmonary stenosis affects the right ventricular outflow tract.", "modality": "CMR", "expert_labels": ["PS"], "source": "synthetic-fixture"}
+{"record_id": "H022", "findings": "The distal arch shows coarctation of the aorta with an elongated segment.", "modality": "CTA", "expert_labels": ["COA"], "source": "synthetic-fixture"}
+{"record_id": "H023", "findings": "Atrial septal defect measuring 6 mm is present. Right atrial enlargement is described.", "modality": "CTA", "expert_labels": ["ASD"], "source": "synthetic-fixture"}

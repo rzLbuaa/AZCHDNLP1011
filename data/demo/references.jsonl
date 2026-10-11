@@ -1,0 +1,8 @@
+{"record_id": "Q001", "diagnoses": ["VSD"], "supportable": ["VSD"], "necessary": ["VSD"]}
+{"record_id": "Q002", "diagnoses": ["ASD"], "supportable": ["ASD"], "necessary": ["ASD"]}
+{"record_id": "Q003", "diagnoses": ["TGA"], "supportable": ["TGA"], "necessary": ["TGA"]}
+{"record_id": "Q004", "diagnoses": ["COA"], "supportable": ["COA"], "necessary": ["COA"]}
+{"record_id": "Q005", "diagnoses": [], "supportable": [], "necessary": []}
+{"record_id": "Q006", "diagnoses": [], "supportable": [], "necessary": []}
+{"record_id": "Q007", "diagnoses": [], "supportable": [], "necessary": []}
+{"record_id": "Q008", "diagnoses": ["CORONARY_ANOMALY"], "supportable": ["CORONARY_ANOMALY"], "necessary": ["CORONARY_ANOMALY"]}

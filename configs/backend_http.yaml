@@ -1,0 +1,12 @@
+kind: http
+model_env: ACHDNLP_MODEL
+base_url_env: ACHDNLP_BASE_URL
+api_key_env: ACHDNLP_API_KEY
+temperature: 0.0
+max_tokens: 3000
+token_parameter: max_tokens
+timeout_seconds: 90
+attempts: 3
+json_mode: false
+send_temperature: true
+allow_local_http: false

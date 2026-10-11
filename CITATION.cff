@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Cite the versioned ACHDNLP reference implementation when using this code."
+title: "ACHDNLP Reference: Evidence-Constrained Expert-Case Retrieval"
+type: software
+version: 0.1.0
+license: MIT
+authors:
+  - name: "ACHDNLP contributors"
+abstract: >-
+  Executable algorithm reference for findings-only resource construction,
+  anatomy-guided retrieval, evidence-linked diagnostic generation,
+  current-patient verification and controlled ablation designs.
+  This release is not the archived clinical deployment.
+keywords:
+  - congenital heart disease
+  - retrieval-augmented generation
+  - diagnostic reporting
+  - reproducible research

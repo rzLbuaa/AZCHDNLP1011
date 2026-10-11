@@ -1,0 +1,5 @@
+kind: http
+archived_alias: deepseek-v4-flash-0731
+model_env: ACHDNLP_BACKEND_04_MODEL
+base_url_env: ACHDNLP_BACKEND_04_URL
+api_key_env: ACHDNLP_BACKEND_04_KEY

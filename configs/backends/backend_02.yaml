@@ -1,0 +1,5 @@
+kind: http
+archived_alias: qwen3.6-flash
+model_env: ACHDNLP_BACKEND_02_MODEL
+base_url_env: ACHDNLP_BACKEND_02_URL
+api_key_env: ACHDNLP_BACKEND_02_KEY

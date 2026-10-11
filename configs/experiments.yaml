@@ -1,0 +1,46 @@
+arms:
+  - name: A
+  - name: B
+    history: none
+  - name: C
+    history: findings
+  - name: D
+    source_arm: A
+    verification: none
+  - name: R0
+    source_arm: A
+    reuse_final: true
+  - name: R8
+    fixed_k: 8
+  - name: R14
+    fixed_k: 14
+  - name: RULES_ONLY
+    history: none
+    rule_only: true
+    verification: none
+  - name: LLM_ONLY
+    history: none
+    anatomy_to_generator: false
+    supplement_rules: false
+    verification: none
+  - name: TEXT_RAG
+    history: findings
+    retrieval: lexical
+    anatomy_to_generator: false
+    supplement_rules: false
+    verification: none
+  - name: LEXICAL_VERIFICATION
+    source_arm: A
+    verification: lexical
+  - name: SELF_REVIEW
+    source_arm: A
+    verification: self_review
+  - name: COUNT_MATCHED_GATING
+    source_arm: A
+    verification: none
+    count_matched: true
+  - name: ID_ONLY
+    source_arm: A
+    fallback: false
+  - name: CF_LABELS
+    counterfactual_labels: true

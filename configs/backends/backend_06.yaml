@@ -1,0 +1,5 @@
+kind: http
+archived_alias: glm-5.2
+model_env: ACHDNLP_BACKEND_06_MODEL
+base_url_env: ACHDNLP_BACKEND_06_URL
+api_key_env: ACHDNLP_BACKEND_06_KEY

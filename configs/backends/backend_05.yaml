@@ -1,0 +1,5 @@
+kind: http
+archived_alias: deepseek-v4-pro-0813
+model_env: ACHDNLP_BACKEND_05_MODEL
+base_url_env: ACHDNLP_BACKEND_05_URL
+api_key_env: ACHDNLP_BACKEND_05_KEY

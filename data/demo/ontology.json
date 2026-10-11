@@ -1,0 +1,127 @@
+{
+  "version": "demo-ontology-1",
+  "scope": "Illustrative vocabulary, not a validated CHD ontology",
+  "concepts": [
+    {
+      "concept_id": "ASD",
+      "name": "Atrial septal defect",
+      "aliases": [
+        "房间隔缺损",
+        "房缺",
+        "atrial septal defect"
+      ],
+      "high_risk": false
+    },
+    {
+      "concept_id": "VSD",
+      "name": "Ventricular septal defect",
+      "aliases": [
+        "室间隔缺损",
+        "室缺",
+        "膜部室间隔缺损",
+        "ventricular septal defect"
+      ],
+      "high_risk": false
+    },
+    {
+      "concept_id": "PDA",
+      "name": "Patent ductus arteriosus",
+      "aliases": [
+        "动脉导管未闭",
+        "patent ductus arteriosus"
+      ],
+      "high_risk": false
+    },
+    {
+      "concept_id": "PS",
+      "name": "Pulmonary stenosis",
+      "aliases": [
+        "肺动脉狭窄",
+        "肺动脉瓣狭窄",
+        "pulmonary stenosis"
+      ],
+      "high_risk": false
+    },
+    {
+      "concept_id": "COA",
+      "name": "Coarctation of the aorta",
+      "aliases": [
+        "主动脉缩窄",
+        "主动脉缩窄症",
+        "coarctation of the aorta"
+      ],
+      "high_risk": false
+    },
+    {
+      "concept_id": "TGA",
+      "name": "Transposition of the great arteries",
+      "aliases": [
+        "大动脉转位",
+        "transposition of the great arteries"
+      ],
+      "high_risk": true
+    },
+    {
+      "concept_id": "DORV",
+      "name": "Double-outlet right ventricle",
+      "aliases": [
+        "右室双出口",
+        "double outlet right ventricle"
+      ],
+      "high_risk": true
+    },
+    {
+      "concept_id": "TOF",
+      "name": "Tetralogy of Fallot",
+      "aliases": [
+        "法洛四联症",
+        "tetralogy of fallot"
+      ],
+      "high_risk": true
+    },
+    {
+      "concept_id": "TAPVC",
+      "name": "Total anomalous pulmonary venous connection",
+      "aliases": [
+        "完全性肺静脉异位引流",
+        "total anomalous pulmonary venous connection"
+      ],
+      "high_risk": true
+    },
+    {
+      "concept_id": "SV",
+      "name": "Single ventricle",
+      "aliases": [
+        "单心室",
+        "single ventricle"
+      ],
+      "high_risk": true
+    },
+    {
+      "concept_id": "CORONARY_ANOMALY",
+      "name": "Anomalous coronary origin",
+      "aliases": [
+        "冠状动脉起源异常",
+        "anomalous coronary origin"
+      ],
+      "high_risk": true
+    },
+    {
+      "concept_id": "AORTIC_OVERRIDE",
+      "name": "Overriding aorta",
+      "aliases": [
+        "主动脉骑跨",
+        "overriding aorta"
+      ],
+      "high_risk": true
+    },
+    {
+      "concept_id": "INTERNAL_NORMAL_CONNECTION",
+      "name": "Normal connection statement",
+      "aliases": [
+        "连接关系描述"
+      ],
+      "kind": "internal"
+    }
+  ]
+}
